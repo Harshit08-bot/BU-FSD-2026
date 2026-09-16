@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="greet.js" defer></script>
+</head>
+<body>
+
+    <h1>Greet Example</h1>
+
+    <input type="text" placeholder="Enter your name" id="box">
+    <!-- Event binding -->
+    <!-- Attach event with a function -->
+    <!-- <button onclick="greet()">Greet!!!</button> -->
+     <button id="btn">Greet!!!</button>
+
+    <hr>
+
+    <h3>Welcome:  <span id="output"></span></h3>
+    
+
+    <!-- <script>
+        function greet() {
+            // console.log("Hello User...");
+
+            let box_1 = document.querySelector("#box");
+            let username = box_1.value;
+            // Truthy and Falsy
+            // null, undefined, 0, ""
+            if(!username) {
+                alert("Please enter a valid username");
+            }
+            else {
+                console.log(`Hello: ${username}`);
+                document.querySelector("#output").innerText = username;            
+                box_1.value = "";
+            }
+        }
+    </script> -->
+
+    <!-- <script src="greet.js"></script> -->
+</body>
+</html>
